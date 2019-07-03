@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HistoryOfGalaxy</title>
+    <style>
+        h1 {
+            font-size: 50px;
+            text-align: center;
+            border-bottom: 1px solid grey;
+            margin:0;
+            padding:20px;
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+        thead tbody {
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+        }
+        #background{
+            height:100%;
+            background-image:url("galaxy.jfif");
+        }
+    </style>
+</head>
+<body>
+    <h1>
+        Samsung Galaxy Notes series
+    </h1>
+    <table border="2">
+        <div>
+            <thead>
+                <tr>
+                    <th><a href="note1.html">Galaxy Note1</a></th><th><a href="note2.html">Galaxy Note2</a></th><th><a href="note3.html">Galaxy Note3</a></th><th><a href="note4.html">Galaxy Note4</a></th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th><img src="note1.jfif"></th><th><img src="note2.jpg"></th><th><img src="note3.jfif"></th><th><img src="note4.jpg"></th>
+                </tr>
+            </tbody>
+        </div>
+        <div>
+            <thead>
+            <tr>
+                <th>Galaxy Note5</th><th>Galaxy Note6</th><th>Galaxy Note7</th><th>Galaxy Note8</th>
+            </tr>
+            </thead>
+            <tbody>
+            <tr>
+                <th><img src="note5.jfif"></th><th><img src="note6.jpg"></th><th><img src="note7.jfif"></th><th><img src="note8.jpg"></th>
+            </tr>
+            </tbody>
+        </div>
+    </table>
+    <div id="background"></div>
+</body>
+</html>

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>HistoryOfGalaxy</title>
+    <meta charset="utf-8">
+    <style>
+      h1 {
+        font-size: 50px;
+        text-align: center;
+        border-bottom: 1px solid grey;
+        margin:0;
+        padding:20px;
+      }
+      groupAll {
+        display:grid;
+        grid-template-rows: 1fr 1fr;
+      }
+      #group1 {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+      }
+      #group2 {
+        display:grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+      }
+      li {
+        margin-left: 20px;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>
+      Samsung Galaxy Notes series
+    </h1>
+    <ul>
+      <div class="groupAll">
+        <div id="group1">
+          <li><a href="note1.html">Galaxy Note1</a></li>
+          <img src="note1.jfif">
+          <li><a href="note2.html">Galaxy Note2</a></li>
+          <li><A href="note3.html">Galaxy Note3</a></li>
+          <li>Galaxy Note4</li>
+        </div>
+        <div id="group2">
+          <li>Galaxy Note5</li>
+          <li>Galaxy Note7(FE)</li>
+          <li>Galaxy Note8</li>
+          <li>Galaxy Note9</li>
+        </div>
+      </div>
+    </ul>
+  </body>
+</html>

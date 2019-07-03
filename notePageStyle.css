@@ -1,0 +1,11 @@
+h1 {
+  font-size: 50px;
+  text-align: center;
+  border-bottom: 1px solid grey;
+  margin:0;
+  padding:20px;
+}
+#back {
+  margin-top:0;
+  display: block;
+}
